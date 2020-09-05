@@ -1,0 +1,1 @@
+# PHP composer docker image containing mcrypt 
