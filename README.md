@@ -16,7 +16,7 @@ jobs:
 
     - uses: docker://dnomyar/php-composer-mcrypt:7.3 // or 7.4
       with:
-        args: composer install
+        args: install
 ```
 
 
