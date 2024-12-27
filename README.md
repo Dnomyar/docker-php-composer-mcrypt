@@ -14,7 +14,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - uses: docker://dnomyar/php-composer-mcrypt:7.3
+    - uses: docker://dnomyar/php-composer-mcrypt:7.3 // or 7.4
       with:
         args: composer install
 ```
